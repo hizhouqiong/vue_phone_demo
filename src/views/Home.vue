@@ -1,18 +1,30 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    111111222
+    <Button type="primary">主要按钮</Button>
+    <Button plain type="primary">朴素按钮</Button>
+    <span class="aaaa">123456</span>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import { Button, Toast } from "vant";
 export default {
-  name: 'home',
+  name: "home",
   components: {
-    HelloWorld
+    Button
+  },
+  created() {
+    Toast("提示内容");
+  }
+};
+</script>
+<style lang="scss">
+@import "./../styles/index.scss";
+.home{
+  color:red;
+  .aaaa{
+    color:green;
   }
 }
-</script>
+</style>

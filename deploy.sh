@@ -12,6 +12,7 @@ yarn build
 # git init
 git add -A
 git commit -m 'deploy'
+git push
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:hizhouqiong/vue_phone_demo.git master:views

@@ -22,4 +22,4 @@ git pull --rebase origin master
 # 同步更新代码
 git push -u origin master
 
-cd -
+# cd -

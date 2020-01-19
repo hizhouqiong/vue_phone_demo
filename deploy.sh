@@ -4,16 +4,16 @@
 set -e
 
 # 生成静态文件
-yarn build
+# yarn build
 
 # 进入生成的文件夹
 # cd ./dist
 
 # git init
-git add .
-git commit -m 'deploy'
-git remote add origin https://github.com/hizhouqiong/vue_phone_demo.git
-git push -u origin master
+# git add .
+# git commit -m 'deploy'
+# git remote add origin https://github.com/hizhouqiong/vue_phone_demo.git
+# git push -u origin master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:hizhouqiong/vue_phone_demo.git master:gh-pages

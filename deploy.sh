@@ -21,6 +21,6 @@ git remote add origin https://github.com/hizhouqiong/vue_phone_demo.git
 # 拉取远程仓库的文件
 git pull --rebase origin master  
 # 同步更新代码
-git push --set-upstream origin master
+git push -u origin master
 
 # cd -

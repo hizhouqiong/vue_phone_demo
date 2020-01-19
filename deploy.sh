@@ -10,13 +10,12 @@ yarn build
 # cd ./dist
 
 # git init
-git pull
 git add .
 git commit -m 'deploy'
 git push
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:hizhouqiong/vue_phone_demo.git master:views
+git push -f git@github.com:hizhouqiong/vue_phone_demo.git master:gh-pages
 # 链接远程仓库
 git remote add origin https://github.com/hizhouqiong/vue_phone_demo.git
 # 拉取远程仓库的文件

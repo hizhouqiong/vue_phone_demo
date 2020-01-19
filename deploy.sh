@@ -16,7 +16,7 @@ set -e
 # git push -u origin master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:hizhouqiong/vue_phone_demo.git master:gh-pages
+git push -f git@github.com:hizhouqiong/vue_phone_demo.git master
 # 链接远程仓库
 # git remote add origin https://github.com/hizhouqiong/vue_phone_demo.git
 # 拉取远程仓库的文件

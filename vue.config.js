@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/vue_phone_demo'
+  publicPath: '/vue_phone_demo/dist'
 }

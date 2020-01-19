@@ -3,7 +3,7 @@
     111111222
     <Button type="primary">主要按钮</Button>
     <Button plain type="primary">朴素按钮</Button>
-    <span class="aaaa">123456</span>
+    <span class="aaaa">测试一下git</span>
   </div>
 </template>
 
